@@ -1,14 +1,31 @@
-# Research Concierge – Multi-Agent Literature Review System
+# Research Concierge
 
-This project is my capstone submission for the Multi-Agent AI Engineers course.
+**Research Concierge** is an AI-powered research assistant that can fetch papers from APIs (CrossRef, arXiv), parse PDFs, extract metadata, summarize content, and maintain persistent session memory. The system is modular with agents for coordination, retrieval, extraction, and summarization.
 
-It includes:
-- Multi-agent system (Retriever, Extractor, Summarizer, Evaluator)
-- Custom tools (PDF parser)
-- OpenAPI tools (CrossRef, arXiv)
-- Memory Bank + session state
-- Long-running job support (pause/resume)
-- Observability with logs and metrics
+---
 
-## Structure
-See `docs/architecture.md` for diagrams and design.
+## Table of Contents
+
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Setup & Installation](#setup--installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
+
+---
+
+## Features
+
+- Fetch papers and metadata from CrossRef and arXiv APIs
+- Parse PDFs and extract full text
+- Summarize PDFs and extract keywords
+- Persistent session memory using `MemoryBank` (pause/resume sessions)
+- Modular agent-based architecture
+- Easy to extend with additional agents or APIs
+
+---
+
+## Project Structure
+
