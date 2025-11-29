@@ -23,30 +23,6 @@
 - Modular agent-based architecture
 - Easy to extend with additional agents or APIs
 
-
-## Project Structure
-research-concierge/
-│
-├── agent/                  # AI agent modules
-│   ├── coordinator_agent.py
-│   ├── retriever_agent.py
-│   ├── extractor_agent.py
-│   └── summarizer_agent.py
-│
-├── memory/                 # Persistent session memory
-│   └── memory_bank.py
-│
-├── scripts/                # Testing scripts and utilities
-│   ├── test_memory_extraction.py
-│   ├── test_coordinator.py
-│   ├── test_week2.py
-│   ├── test_week3.py
-│   └── test_week4.py
-│
-├── sample.pdf              # Example PDF
-└── README.md               # Project documentation
-
-
 ## Setup & Installation
 
 1. Clone the repository:
@@ -92,5 +68,6 @@ All agents and modules have corresponding test scripts in the scripts/ folder:
 - Integrate full CrossRef API for metadata
 - Add automated evaluation using gold datasets
 - Support multiple file formats (PDF, DOCX)
+
 
 
